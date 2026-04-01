@@ -81,6 +81,14 @@ Failed tests
 
 If your tests are failing and you cannot identify the error, use **GTKWave** to inspect the waveforms stored in `tb.vcd`.
 
+## Extra Fun
+
+If you're feeling adventurous, you can also try to add some functionality. There is a
+integer called `tests_failed` in the testbench. Modify the testbench so that it can count
+the number of tests failed and print them out at the end. If this feature works, I will 
+give one extra point. However, this functionality is not required to earn full credit.
+
+
 ## What to Turn In
 
 Submit your work by committing and pushing your changes to your GitHub repository. 
