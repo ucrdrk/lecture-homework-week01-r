@@ -7,4 +7,4 @@ module halfadder(
 
 // Put your implementation of a halfadder goes here
 
-endmodule;
+endmodule

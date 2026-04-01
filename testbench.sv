@@ -24,22 +24,30 @@ end
 
 // Write Test Stimulus
 task test_00();
+begin
     A = 0;
     B = 0;
     #5;
     pass &= S == 0 & C == 0;
+end
 endtask
 
 task test_01();
+begin
     // Put your test for A = 0, and B = 1
+end
 endtask
 
 task test_10();
+begin
     // Put your test for A = 1, and B = 0
+end
 endtask
 
 task test_11 ();
+begin
     // Put your test for A = 1, and B = 1
+end
 endtask
 
 // Write Checker
@@ -55,7 +63,6 @@ initial begin
     end else begin
         $display("Failed tests");
     end
-
 end
 
-endmodule;
+endmodule
